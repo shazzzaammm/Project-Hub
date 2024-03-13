@@ -70,6 +70,22 @@ allProjects.push(new Project("Fake Programming", "https://shazzzaammm.github.io/
 allProjects.push(
   new Project("QR&nbsp;Code Generator", "https://shazzzaammm.github.io/QR-Code-Generator")
 );
+allProjects.push(
+  new Project(
+    "Sorting Alg Vis Rust",
+    "https://github.com/shazzzaammm/Sorting-Algorithm-Visualizer-Rust"
+  )
+);
+allProjects.push(
+  new Project("Rock Paper Scissors", "https://github.com/shazzzaammm/Rock-Paper-Scissors")
+);
+allProjects.push(new Project("Sand Simulation", "https://shazzzaammm.github.io/sand-simulation/"));
+allProjects.push(new Project("Meowthon", "https://github.com/shazzzaammm/meowthon"));
+allProjects.push(
+  new Project("Youtube Video Downloader", "https://github.com/shazzzaammm/Youtube-Video-Downloader")
+);
+allProjects.push(new Project("Spline Showcase", "https://shazzzaammm.github.io/Spline-Demo/"));
+allProjects.push(new Project("Wordle Solver", "https://github.com/shazzzaammm/Wordle-AI"));
 allProjects.forEach((p) => {
   projectHTML += p.getString();
 });
