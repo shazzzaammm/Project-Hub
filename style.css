@@ -1,238 +1,236 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&display=swap");
 
-@media (max-width:525px) {
-    .header {
-        font-size: 1.35em;
-    }
+@media (max-width: 525px) {
+  .header {
+    font-size: 1.35em;
+  }
 
-    .text-header {
-        font-size: 1.5em;
-    }
+  .text-header {
+    font-size: 1.5em;
+  }
 
-    .intro-section {
-        padding: 20px;
-    }
+  .intro-section {
+    padding: 20px;
+  }
 
-    .icon {
-        width: 75px;
-        height: 75px;
-    }
+  .icon {
+    width: 75px;
+    height: 75px;
+  }
 
-    .projects-section {
-        min-height: 250px;
-    }
+  .projects-section {
+    min-height: 250px;
+  }
 
-    .projects {
-        min-height: 150px;
-        padding: 8px;
-    }
+  .projects {
+    min-height: 150px;
+    padding: 8px;
+  }
 
-    .project {
-        width: 115px;
-        height: 150px;
-        padding: 8px;
-        margin: 0 4px;
-        border-radius: 16px;
-    }
+  .project {
+    width: 115px;
+    height: 150px;
+    padding: 8px;
+    margin: 0 4px;
+    border-radius: 16px;
+  }
 
-    .project-name {
-        font-size: 1.4em;
-    }
+  .project-name {
+    font-size: 1.4em;
+  }
 
-    .text-section {
-        padding: 8px;
-    }
+  .text-section {
+    padding: 8px;
+  }
 }
 
-@media (min-width:525px) {
-    .header {
-        font-size: 1.25em;
-    }
+@media (min-width: 525px) {
+  .header {
+    font-size: 1.25em;
+  }
 
-    .text-header {
-        font-size: 2.25em;
-    }
+  .text-header {
+    font-size: 2.25em;
+  }
 
-    .intro-section {
-        padding: 20px;
-        font-size: 1.75em;
-    }
+  .intro-section {
+    padding: 20px;
+    font-size: 1.75em;
+  }
 
-    .icon {
-        width: 75px;
-        height: 75px;
-    }
+  .icon {
+    width: 75px;
+    height: 75px;
+  }
 
-    .projects-section {
-        min-height: 250px;
-        font-size: 1.2em;
-    }
+  .projects-section {
+    min-height: 250px;
+    font-size: 1.2em;
+  }
 
-    .projects {
-        min-height: 150px;
-        padding: 8px;
-    }
+  .projects {
+    min-height: 150px;
+    padding: 8px;
+  }
 
-    .project {
-        width: 100%;
-        max-width: 150px;
-        min-height: 150px;
-        padding: 8px;
-        margin: 0 4px;
-        border-radius: 16px;
-    }
+  .project {
+    width: 100%;
+    max-width: 150px;
+    min-height: 150px;
+    padding: 8px;
+    margin: 0 4px;
+    border-radius: 16px;
+  }
 
-    .project-name {
-        font-size: 1.4em;
-    }
+  .project-name {
+    font-size: 1.4em;
+  }
 
-    .text-section {
-        padding: 8px;
-        font-size: 1.2em;
-    }
+  .text-section {
+    padding: 8px;
+    font-size: 1.2em;
+  }
 }
 
-@media (min-width:2000px) {
-    .header {
-        font-size: 2em;
-    }
+@media (min-width: 2000px) {
+  .header {
+    font-size: 2em;
+  }
 
-    .text-header {
-        font-size: 2em;
-    }
+  .text-header {
+    font-size: 2em;
+  }
 
-    .intro-section {
-        padding: 20px;
-        /* min-height: 1200px; */
-        font-size: 2.5em;
-    }
+  .intro-section {
+    padding: 20px;
+    /* min-height: 1200px; */
+    font-size: 2.5em;
+  }
 
-    .icon {
-        width: 75px;
-        height: 75px;
-    }
+  .icon {
+    width: 75px;
+    height: 75px;
+  }
 
-    .projects-section {
-        min-height: 600px;
-        font-size: 2em;
-    }
+  .projects-section {
+    min-height: 600px;
+    font-size: 2em;
+  }
 
-    .projects {
-        min-height: 360px;
-        padding: 8px;
-    }
+  .projects {
+    min-height: 360px;
+    padding: 8px;
+  }
 
-    .project {
-        width: 100%;
-        max-width: 300px;
-        max-height: 300px;
-        padding: 8px;
-        margin: 0 4px;
-        border-radius: 16px;
-    }
+  .project {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 8px;
+    margin: 0 4px;
+    border-radius: 16px;
+  }
 
-    .project-name {
-        font-size: 1.2em;
-    }
+  .project-name {
+    font-size: 1.2em;
+  }
 
-    .text-section {
-        padding: 8px;
-        font-size: 1.1em;
-    }
+  .text-section {
+    padding: 8px;
+    font-size: 1.1em;
+  }
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
 }
 
 body {
-    background-color: #8ecae6;
-    color: #023047;
+  background-color: #8ecae6;
+  color: #023047;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #ffb703;
-    color: #023047;
-    height: 100vh;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffb703;
+  color: #023047;
+  height: 100vh;
 }
 
 .image-with-text {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 
-
 .intro-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 
 .projects-section {
-    background-color: #023047;
-    color: #FFF;
+  background-color: #023047;
+  color: #fff;
 }
 
 #icon {
-    margin-bottom: 1vh;
+  margin-bottom: 1vh;
 }
 
 .projects {
-    overflow: auto;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-    display: flex;
+  overflow: auto;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  display: flex;
 }
 
 .project {
-    color: #023047;
-    background-color: #FFA900;
-    white-space: normal;
-    text-align: center;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: column;
+  color: #023047;
+  background-color: #ffa900;
+  white-space: normal;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-link {
-    text-transform: capitalize;
-    text-decoration-line: none;
-    font-weight: 500;
-    color: #023047;
+  text-transform: capitalize;
+  text-decoration-line: none;
+  font-weight: 500;
+  color: #023047;
 }
 
 .project-link:hover {
-    color: #ffb703;
-    background-color: #023047;
-    border-radius: 8px;
+  color: #ffb703;
+  background-color: #023047;
+  border-radius: 8px;
 }
 
 .projects::-webkit-scrollbar {
-    width: 1em;
+  width: 1em;
 }
 
 .projects::-webkit-scrollbar-thumb {
-    background-color: #FFA900;
-    border-radius: 8px;
+  background-color: #ffa900;
+  border-radius: 8px;
 }
 
 body::-webkit-scrollbar {
-    width: 1em;
-    background-color: #FFF;
+  width: 1em;
+  background-color: #fff;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #b6b6b6;
-    border-radius: 8px;
+  background-color: #b6b6b6;
+  border-radius: 8px;
 }
