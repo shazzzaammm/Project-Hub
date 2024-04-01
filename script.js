@@ -1,3 +1,4 @@
+// Class definition (i love oop)
 class Project {
   constructor(name, link) {
     this.name = name;
@@ -16,25 +17,35 @@ class Project {
   }
 }
 
+// Variables for the wiggling icon
 icon = document.querySelector("#icon");
-projectDiv = document.querySelector(".projects");
-const allProjects = [];
 let i = 0;
+
+// Constantly called function that makes the icon oscillate
 function rotateIcon() {
   icon.style.transform = `rotate(${map(Math.sin(i), -1, 1, -20, 20)}deg)`;
   i += 0.0025;
 }
 
+// Helper function (apparently this language doesnt have this natively)
 function clamp(input, min, max) {
   return input < min ? min : input > max ? max : input;
 }
+
+// Also a helper function (p5.js habit)
 function map(current, in_min, in_max, out_min, out_max) {
   const mapped = ((current - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min;
   return clamp(mapped, out_min, out_max);
 }
 
+// Make the icon do the silly :3
 setInterval(rotateIcon, 1);
-let projectHTML = "";
+
+// Project related variables
+const allProjects = [];
+const projectDiv = document.querySelector(".projects");
+
+// Load all of the projects (this is less error prone than doing it in html)
 allProjects.push(
   new Project("Sorting Visualizer", "https://shazzzaammm.github.io/SortingAlgorithmVisualizer")
 );
@@ -86,22 +97,25 @@ allProjects.push(
 );
 allProjects.push(new Project("Spline Showcase", "https://shazzzaammm.github.io/Spline-Demo/"));
 allProjects.push(new Project("Wordle Solver", "https://github.com/shazzzaammm/Wordle-AI"));
-allProjects.forEach((p) => {
-  projectHTML += p.getString();
-});
-projectDiv.innerHTML = projectHTML;
 
+// Insert all projects into the webpage
+allProjects.forEach((p) => {
+  projectDiv.innerHTML += p.getString();
+});
+
+// Figure out whether to say good morning, afternoon, evening, or night
 function determineTime() {
   const hour = new Date().getHours();
   if (hour >= 5 && hour < 12) {
     return "morning";
-  } else if (hour >= 12 && hour < 5) {
+  } else if (hour >= 12 && hour < 17) {
     return "afternoon";
-  } else if (hour >= 5 && hour < 9) {
+  } else if (hour >= 17 && hour < 21) {
     return "evening";
   } else {
     return "night";
   }
 }
 
+// Put the greeting into the webpage
 document.getElementById("greeting-span").innerText = determineTime();
