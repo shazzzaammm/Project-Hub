@@ -90,3 +90,18 @@ allProjects.forEach((p) => {
   projectHTML += p.getString();
 });
 projectDiv.innerHTML = projectHTML;
+
+function determineTime() {
+  const hour = new Date().getHours();
+  if (hour >= 5 && hour < 12) {
+    return "morning";
+  } else if (hour >= 12 && hour < 5) {
+    return "afternoon";
+  } else if (hour >= 5 && hour < 9) {
+    return "evening";
+  } else {
+    return "night";
+  }
+}
+
+document.getElementById("greeting-span").innerText = determineTime();
