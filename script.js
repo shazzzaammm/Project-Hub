@@ -64,13 +64,9 @@ allProjects.push(new Project("Tic&nbsp;Tac Toe", "https://shazzzaammm.github.io/
 allProjects.push(new Project("L-System Fractals", "https://shazzzaammm.github.io/L-Systems"));
 allProjects.push(new Project("Recursion", "index.html"));
 allProjects.push(new Project("Cat Facts", "https://shazzzaammm.github.io/CatFacts"));
-allProjects.push(
-  new Project("Password Generator", "https://shazzzaammm.github.io/Password-Generator")
-);
+allProjects.push(new Project("Password Generator", "https://shazzzaammm.github.io/Password-Generator"));
 allProjects.push(new Project("Matrix Text", "https://shazzzaammm.github.io/Matrix-Text"));
-allProjects.push(
-  new Project("Cat Meme Creator", "https://shazzzaammm.github.io/Cat-Meme-Generator")
-);
+allProjects.push(new Project("Cat Meme Creator", "https://shazzzaammm.github.io/Cat-Meme-Generator"));
 allProjects.push(new Project("Plinko", "https://shazzzaammm.github.io/Plinko"));
 allProjects.push(new Project("Quick Draw!", "https://shazzzaammm.github.io/Quick-Draw"));
 allProjects.push(new Project("MS&nbsp; Paint", "https://shazzzaammm.github.io/Paint"));
@@ -78,25 +74,18 @@ allProjects.push(new Project("Image Classifier", "https://shazzzaammm.github.io/
 allProjects.push(new Project("Monty Hall", "https://shazzzaammm.github.io/Monty-Hall"));
 allProjects.push(new Project("Phyllotaxis", "https://shazzzaammm.github.io/Phyllotaxis"));
 allProjects.push(new Project("Fake Programming", "https://shazzzaammm.github.io/Fake-Programming"));
-allProjects.push(
-  new Project("QR&nbsp;Code Generator", "https://shazzzaammm.github.io/QR-Code-Generator")
-);
-allProjects.push(
-  new Project(
-    "Sorting Alg Vis Rust",
-    "https://github.com/shazzzaammm/Sorting-Algorithm-Visualizer-Rust"
-  )
-);
-allProjects.push(
-  new Project("Rock Paper Scissors", "https://github.com/shazzzaammm/Rock-Paper-Scissors")
-);
+allProjects.push(new Project("QR&nbsp;Code Generator", "https://shazzzaammm.github.io/QR-Code-Generator"));
+allProjects.push(new Project("Sorting Alg Vis Rust","https://github.com/shazzzaammm/Sorting-Algorithm-Visualizer-Rust"));
+allProjects.push(new Project("Rock Paper Scissors", "https://github.com/shazzzaammm/Rock-Paper-Scissors"));
 allProjects.push(new Project("Sand Simulation", "https://shazzzaammm.github.io/sand-simulation/"));
 allProjects.push(new Project("Meowthon", "https://github.com/shazzzaammm/meowthon"));
-allProjects.push(
-  new Project("Youtube Video Downloader", "https://github.com/shazzzaammm/Youtube-Video-Downloader")
-);
+allProjects.push(new Project("Youtube Video Downloader", "https://github.com/shazzzaammm/Youtube-Video-Downloader"));
 allProjects.push(new Project("Spline Showcase", "https://shazzzaammm.github.io/Spline-Demo/"));
 allProjects.push(new Project("Wordle Solver", "https://github.com/shazzzaammm/Wordle-AI"));
+allProjects.push(new Project("Grop", "https://github.com/shazzzaammm/Grop"));
+allProjects.push(new Project("2D Platfomer", "https://github.com/shazzzaammm/2D-Platformer"));
+allProjects.push(new Project("Gravity Falls Ciphers", "https://shazzzaammm.github.io/Gravity-Falls-Ciphers/"));
+allProjects.push(new Project("Particle Simulation", "https://github.com/shazzzaammm/Particle-Simulation"));
 
 // Insert all projects into the webpage
 allProjects.forEach((p) => {
